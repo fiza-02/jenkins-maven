@@ -22,7 +22,7 @@ pipeline {
         {
             steps
             {
-                echo 'Hello world'
+                echo 'Hello world from github to jenkins'
                 
                   bat "echo '%PATH%'"
                     bat ' mvn clean install'
